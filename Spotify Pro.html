@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./soptifyproj/logo.png"> 
+    <title>Spotify-web player:Music for everyone</title>
+    <link rel="stylesheet" href="spotifypro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./soptifyproj/library_icon.png">
+                        <a href="">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Creat playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll keep updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./soptifyproj/backward_icon.png">
+                    <img src="./soptifyproj/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                
+            </div>
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./soptifyproj/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the maost played tracks... </p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./soptifyproj/card2img.jpeg" class="card-img">
+                    <p class="card-title">Maniya Jina Sonna</p>
+                    <p class="card-info">Darshan Raval </p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/card3img.jpeg" class="card-img">
+                    <p class="card-title">Meray Pass Tum Ho</p>
+                    <p class="card-info">Rahat Fateh Ali Khan</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/card4img.jpeg" class="card-img">
+                    <p class="card-title">Naa Ready</p>
+                    <p class="card-info">Anirudh Ravichander, Thalapathy Vijay, Asal... </p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/Raanjhan.webp" class="card-img">
+                    <p class="card-title">Raanjhan (From Do Patti)</p>
+                    <p class="card-info">Sachet-Parampara, Parampara Tandon </p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/finding her.jpeg" class="card-img">
+                    <p class="card-title">Finding Her</p>
+                    <p class="card-info">Kushagra, Bharath, Saaheal</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/pasoori nu.jpeg" class="card-img">
+                    <p class="card-title">Pasoori nu</p>
+                    <p class="card-info">Khushi</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/Sahiba.jpeg" class="card-img">
+                    <p class="card-title">Sahiba</p>
+                    <p class="card-info">Aditya Rikhari</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/shaky.jpeg" class="card-img">
+                    <p class="card-title">Shaky</p>
+                    <p class="card-info">Sanju Rathod</p>
+                </div>
+            </div>
+
+            <h2>Popular albums</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./soptifyproj/sanam teri kasam.jpeg" class="card-img">
+                    <p class="card-title">Sanam Teri Kasam</p>
+                    <p class="card-info">Himesh Reshammiya, Sameer Anjaan, Subrat...</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/jabwemet.jpeg" class="card-img">
+                    <p class="card-title">Jab We Met</p>
+                    <p class="card-info">Pritam, Irshad Kamil, Sandesh Shandilya</p>
+                </div>
+                <div class="card">  
+                    <img src="./soptifyproj/ye jawanni.jpeg" class="card-img">
+                    <p class="card-title">Ye Jawaani Hai Deewani</p>
+                    <p class="card-info">Pritam</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/aashiqi2.jpeg" class="card-img">
+                    <p class="card-title">Aashiqi 2</p>
+                    <p class="card-info">Mitoon, Ankit Tiwari, Jeet Gannguli</p>
+                </div>
+            </div>
+
+            <h2>Popular Radio</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./soptifyproj/shreyaghoshal.jpeg" class="card-img">
+                    <p class="card-info">With A.R.Rahman, Atif Aslam, Shankar-...</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/arijitsingh.jpeg" class="card-img">
+                    <p class="card-info">With Sachin-Jigar, Atif Aslam, Pritam and...</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/yoyohoneysingh.jpeg" class="card-img">
+                    <p class="card-info">With Guru Randhawa, Sachin-Jigar, Alfazz...</p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/kk.jpeg" class="card-img">
+                    <p class="card-info">With Pritam, Atif Aslam, Ankit Tiwari...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./soptifyproj/card5img.jpeg" class="card-img">
+                    <p class="card-info">Your Weekly update of the most played... </p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/card6img.jpeg" class="card-img">
+                    <p class="card-info">Your Weekly update of the most played... </p>
+                </div>
+                <div class="card">
+                    <img src="./soptifyproj/card1img.jpeg" class="card-img">
+                    <p class="card-info">Your daily update of the most played... </p>
+                </div>
+                </div>
+                <div class="footer">
+                    <div class="line">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div>
+                    <img src="./soptifyproj/">
+                </div>
+            </div> 
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./soptifyproj/player_icon1.png" class="player-control-icon">
+                    <img src="./soptifyproj/player_icon2.png" class="player-control-icon">
+                    <img src="./soptifyproj/player_icon3.png" class="player-control-icon" style="opacity:1; height: 2rem;">
+                    <img src="./soptifyproj/player_icon4.png" class="player-control-icon">
+                    <img src="./soptifyproj/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
